@@ -1,0 +1,13 @@
+/* Sudut Temu Cafe — custom layer */
+
+html { scroll-behavior: smooth; }
+
+.line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Brand logo shadow halus */
+img.brand-logo { filter: drop-shadow(0 1px 2px rgba(200, 82, 116, 0.08)); }
